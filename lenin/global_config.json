@@ -8,16 +8,16 @@
         "radio_0": {
             "enable": true,
             "type": "SX1257",
-            "freq": 904900000,
+            "freq": 904300000,
             "rssi_offset": -166.0,
             "tx_enable": true,
-            "tx_freq_min": 902000000,
+            "tx_freq_min": 923000000,
             "tx_freq_max": 928000000
         },
         "radio_1": {
             "enable": true,
             "type": "SX1257",
-            "freq": 904300000,
+            "freq": 905000000,
             "rssi_offset": -166.0,
             "tx_enable": false
         },
@@ -40,37 +40,37 @@
             "if": 0
         },
         "chan_multiSF_3": {
-            /* Lora MAC channel, 125kHz, all SF, 904.7 MHz */
+            /* Lora MAC channel, 125kHz, all SF, 904.5 MHz */
             "enable": true,
             "radio": 0,
             "if": 200000
         },
         "chan_multiSF_4": {
-            /* Lora MAC channel, 125kHz, all SF, 903.1 MHz */
+            /* Lora MAC channel, 125kHz, all SF, 904.7 MHz */
             "enable": true,
             "radio": 1,
             "if": -300000
         },
         "chan_multiSF_5": {
-            /* Lora MAC channel, 125kHz, all SF, 903.3 MHz */
+            /* Lora MAC channel, 125kHz, all SF, 904.9 MHz */
             "enable": true,
             "radio": 1,
             "if": -100000
         },
         "chan_multiSF_6": {
-            /* Lora MAC channel, 125kHz, all SF, 903.5 MHz */
+            /* Lora MAC channel, 125kHz, all SF, 905.1 MHz */
             "enable": true,
             "radio": 1,
             "if": 100000
         },
         "chan_multiSF_7": {
-            /* Lora MAC channel, 125kHz, all SF, 903.7 MHz */
+            /* Lora MAC channel, 125kHz, all SF, 905.3 MHz */
             "enable": true,
             "radio": 1,
             "if": 300000
         },
         "chan_Lora_std": {
-            /* Lora MAC channel, 500kHz, SF8, 903.0 MHz */
+            /* Lora MAC channel, 500kHz, SF8, 904.6 MHz */
             "enable": true,
             "radio": 0,
             "if": 300000,
@@ -91,7 +91,7 @@
         /* change with default server address/ports, or overwrite in local_conf.
 json */
         /*"server_address": "router.eu.thethings.network",*/
-        "server_address": "127.0.0.1",
+	"server_address": "127.0.0.1",
         "serv_port_up": 1700,
         "serv_port_down": 1700,
         /* adjust the following parameters for your network */
